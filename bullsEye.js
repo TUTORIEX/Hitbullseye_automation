@@ -1,6 +1,7 @@
 // var save = document.querySelector("#main_div > div.tableWidthPercent > div.onlineTestLeftDiv > div.qnav > span.saveNextButton > a")
 keys =
   "DCACDADDABCCCABAACDCBBCBBAABCDDDBDCADAAADDBCDADBADDDCBCCDACCCCABCADBBAAADDCCDBBDDADBCACCCDABBDBCDABA";
+let len = keys.length
 
 
 
@@ -11,7 +12,7 @@ const inter = setInterval(function(){
   document.querySelector("#main_div > div.tableWidthPercent > div.onlineTestLeftDiv > div.qnav > span.saveNextButton > a").click()
 i++
 
-if(i == 100){
+if(i == len){
     clearInterval(inter)
 }
 
