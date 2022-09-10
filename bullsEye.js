@@ -1,19 +1,17 @@
-keys =
-  "CDACCCAABCBDADABCBBADBABDADCBDAACDCAAAAA";
-let len = keys.length
-
-
-
+let keys = "CDACCCAABCBDADABCBBADBABDADCBDAACDCAAAAA";
+let len = keys.length;
 
 let i = 0;
-const inter = setInterval(function(){
-  document.querySelector(`#${keys[i]}_${i+1}`).click();
-  document.querySelector("#main_div > div.tableWidthPercent > div.onlineTestLeftDiv > div.qnav > span.saveNextButton > a").click()
-i++
 
-if(i == len){
-    clearInterval(inter)
-}
-
-
-},2000);
+// set interval makes the function to get executed after a specific time interval again and again
+const inter = setInterval(
+  function(){
+    document.querySelector(`#${keys[i]}_${i+1}`).click();
+    document.querySelector("#main_div > div.tableWidthPercent > div.onlineTestLeftDiv > div.qnav > span.saveNextButton > a").click();
+    i++;
+    
+    if(i == len){
+      clearInterval(inter)
+    }
+  },
+2000);
