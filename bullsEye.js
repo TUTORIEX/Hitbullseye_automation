@@ -1,6 +1,5 @@
-// var save = document.querySelector("#main_div > div.tableWidthPercent > div.onlineTestLeftDiv > div.qnav > span.saveNextButton > a")
 keys =
-  "DCACDADDABCCCABAACDCBBCBBAABCDDDBDCADAAADDBCDADBADDDCBCCDACCCCABCADBBAAADDCCDBBDDADBCACCCDABBDBCDABA";
+  "CDACCCAABCBDADABCBBADBABDADCBDAACDCAAAAA";
 let len = keys.length
 
 

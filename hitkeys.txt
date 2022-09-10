@@ -57,3 +57,12 @@ Tech test 2 : CADAADCCDBACBBBCABBCAAABBCBDDD
 Tech test 3 : ADAADDBBBCDBCBCAADDBCBBDADAADC
 Tech test 4 : DBBBBBDCCBDCCCDCABBCAAABBCBDDD
 Tech test 5 : DACCCDCDBCBDAABDCDDDACACAABCCA
+
+
+
+|-------------------------------------------------------------|
+|Question Wise Analysis - LPU Analytical Week Test 02 - 2024  |
+|-------------------------------------------------------------|
+
+CDACCCAABCBDADABCBBADBABDADCBDAACDCAAAAA
+
