@@ -3,7 +3,6 @@ let len = keys.length;
 
 let i = 0;
 
-// set interval makes the function to get executed after a specific time interval again and again
 const inter = setInterval(
   function(){
     document.querySelector(`#${keys[i]}_${i+1}`).click();
