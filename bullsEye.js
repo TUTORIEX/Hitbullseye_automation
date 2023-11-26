@@ -13,4 +13,4 @@ const inter = setInterval(
       clearInterval(inter)
     }
   },
-2000);
+000);
